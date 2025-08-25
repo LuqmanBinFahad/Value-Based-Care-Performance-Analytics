@@ -1,4 +1,3 @@
-# Value-Based Care Performance Analytics — Prototype
 ## Dr. Luqman Bin Fahad
 ## GitHub Repo: https://github.com/LuqmanBinFahad/Value-Based-Care-Performance-Analytics
 
