@@ -1,5 +1,7 @@
 # Value-Based Care Performance Analytics — Prototype
 ## Dr. Luqman Bin Fahad
+## GitHub Repo: https://github.com/LuqmanBinFahad/Value-Based-Care-Performance-Analytics
+
 A Streamlit prototype dashboard using **de-identified, real-world–inspired sample datasets** (patients, encounters, quality measures, and contracts). 
 This is a working foundation you can swap with your own real-world datasets (CMS/ACO/EHR extracts).
 
