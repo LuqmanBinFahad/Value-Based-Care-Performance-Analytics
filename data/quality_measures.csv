@@ -1,0 +1,91 @@
+month,measure_code,measure_name,numerator,denominator,rate
+2024-01,HBP_CONTROL,Controlling High Blood Pressure,318,482,0.6598
+2024-02,HBP_CONTROL,Controlling High Blood Pressure,167,255,0.6549
+2024-03,HBP_CONTROL,Controlling High Blood Pressure,134,218,0.6147
+2024-04,HBP_CONTROL,Controlling High Blood Pressure,273,413,0.661
+2024-05,HBP_CONTROL,Controlling High Blood Pressure,147,220,0.6682
+2024-06,HBP_CONTROL,Controlling High Blood Pressure,328,493,0.6653
+2024-07,HBP_CONTROL,Controlling High Blood Pressure,195,294,0.6633
+2024-08,HBP_CONTROL,Controlling High Blood Pressure,287,438,0.6553
+2024-09,HBP_CONTROL,Controlling High Blood Pressure,221,318,0.695
+2024-10,HBP_CONTROL,Controlling High Blood Pressure,171,267,0.6404
+2024-11,HBP_CONTROL,Controlling High Blood Pressure,390,597,0.6533
+2024-12,HBP_CONTROL,Controlling High Blood Pressure,375,589,0.6367
+2025-01,HBP_CONTROL,Controlling High Blood Pressure,184,283,0.6502
+2025-02,HBP_CONTROL,Controlling High Blood Pressure,125,200,0.625
+2025-03,HBP_CONTROL,Controlling High Blood Pressure,290,438,0.6621
+2025-04,HBP_CONTROL,Controlling High Blood Pressure,174,289,0.6021
+2025-05,HBP_CONTROL,Controlling High Blood Pressure,326,494,0.6599
+2025-06,HBP_CONTROL,Controlling High Blood Pressure,154,237,0.6498
+2024-01,DIAB_A1C,Diabetes: Poor Control HbA1c (>9%) lower is better,152,229,0.6638
+2024-02,DIAB_A1C,Diabetes: Poor Control HbA1c (>9%) lower is better,299,463,0.6458
+2024-03,DIAB_A1C,Diabetes: Poor Control HbA1c (>9%) lower is better,140,208,0.6731
+2024-04,DIAB_A1C,Diabetes: Poor Control HbA1c (>9%) lower is better,381,557,0.684
+2024-05,DIAB_A1C,Diabetes: Poor Control HbA1c (>9%) lower is better,215,325,0.6615
+2024-06,DIAB_A1C,Diabetes: Poor Control HbA1c (>9%) lower is better,239,367,0.6512
+2024-07,DIAB_A1C,Diabetes: Poor Control HbA1c (>9%) lower is better,304,452,0.6726
+2024-08,DIAB_A1C,Diabetes: Poor Control HbA1c (>9%) lower is better,325,482,0.6743
+2024-09,DIAB_A1C,Diabetes: Poor Control HbA1c (>9%) lower is better,340,515,0.6602
+2024-10,DIAB_A1C,Diabetes: Poor Control HbA1c (>9%) lower is better,175,270,0.6481
+2024-11,DIAB_A1C,Diabetes: Poor Control HbA1c (>9%) lower is better,213,314,0.6783
+2024-12,DIAB_A1C,Diabetes: Poor Control HbA1c (>9%) lower is better,181,277,0.6534
+2025-01,DIAB_A1C,Diabetes: Poor Control HbA1c (>9%) lower is better,243,362,0.6713
+2025-02,DIAB_A1C,Diabetes: Poor Control HbA1c (>9%) lower is better,242,350,0.6914
+2025-03,DIAB_A1C,Diabetes: Poor Control HbA1c (>9%) lower is better,278,411,0.6764
+2025-04,DIAB_A1C,Diabetes: Poor Control HbA1c (>9%) lower is better,231,348,0.6638
+2025-05,DIAB_A1C,Diabetes: Poor Control HbA1c (>9%) lower is better,236,355,0.6648
+2025-06,DIAB_A1C,Diabetes: Poor Control HbA1c (>9%) lower is better,427,595,0.7176
+2024-01,BCS_SCREEN,Breast Cancer Screening,173,241,0.7178
+2024-02,BCS_SCREEN,Breast Cancer Screening,308,412,0.7476
+2024-03,BCS_SCREEN,Breast Cancer Screening,318,452,0.7035
+2024-04,BCS_SCREEN,Breast Cancer Screening,289,400,0.7225
+2024-05,BCS_SCREEN,Breast Cancer Screening,281,392,0.7168
+2024-06,BCS_SCREEN,Breast Cancer Screening,382,506,0.7549
+2024-07,BCS_SCREEN,Breast Cancer Screening,245,334,0.7335
+2024-08,BCS_SCREEN,Breast Cancer Screening,330,453,0.7285
+2024-09,BCS_SCREEN,Breast Cancer Screening,405,584,0.6935
+2024-10,BCS_SCREEN,Breast Cancer Screening,238,333,0.7147
+2024-11,BCS_SCREEN,Breast Cancer Screening,319,437,0.73
+2024-12,BCS_SCREEN,Breast Cancer Screening,163,228,0.7149
+2025-01,BCS_SCREEN,Breast Cancer Screening,357,462,0.7727
+2025-02,BCS_SCREEN,Breast Cancer Screening,168,230,0.7304
+2025-03,BCS_SCREEN,Breast Cancer Screening,219,316,0.693
+2025-04,BCS_SCREEN,Breast Cancer Screening,399,535,0.7458
+2025-05,BCS_SCREEN,Breast Cancer Screening,381,485,0.7856
+2025-06,BCS_SCREEN,Breast Cancer Screening,202,268,0.7537
+2024-01,COLON_SCREEN,Colorectal Cancer Screening,426,563,0.7567
+2024-02,COLON_SCREEN,Colorectal Cancer Screening,275,369,0.7453
+2024-03,COLON_SCREEN,Colorectal Cancer Screening,268,371,0.7224
+2024-04,COLON_SCREEN,Colorectal Cancer Screening,165,223,0.7399
+2024-05,COLON_SCREEN,Colorectal Cancer Screening,259,331,0.7825
+2024-06,COLON_SCREEN,Colorectal Cancer Screening,253,328,0.7713
+2024-07,COLON_SCREEN,Colorectal Cancer Screening,251,355,0.707
+2024-08,COLON_SCREEN,Colorectal Cancer Screening,398,542,0.7343
+2024-09,COLON_SCREEN,Colorectal Cancer Screening,340,428,0.7944
+2024-10,COLON_SCREEN,Colorectal Cancer Screening,356,488,0.7295
+2024-11,COLON_SCREEN,Colorectal Cancer Screening,319,421,0.7577
+2024-12,COLON_SCREEN,Colorectal Cancer Screening,242,318,0.761
+2025-01,COLON_SCREEN,Colorectal Cancer Screening,391,543,0.7201
+2025-02,COLON_SCREEN,Colorectal Cancer Screening,405,577,0.7019
+2025-03,COLON_SCREEN,Colorectal Cancer Screening,361,467,0.773
+2025-04,COLON_SCREEN,Colorectal Cancer Screening,407,525,0.7752
+2025-05,COLON_SCREEN,Colorectal Cancer Screening,268,355,0.7549
+2025-06,COLON_SCREEN,Colorectal Cancer Screening,257,347,0.7406
+2024-01,IMM_FLU,Influenza Immunization,204,259,0.7876
+2024-02,IMM_FLU,Influenza Immunization,235,308,0.763
+2024-03,IMM_FLU,Influenza Immunization,358,431,0.8306
+2024-04,IMM_FLU,Influenza Immunization,386,493,0.783
+2024-05,IMM_FLU,Influenza Immunization,451,585,0.7709
+2024-06,IMM_FLU,Influenza Immunization,227,278,0.8165
+2024-07,IMM_FLU,Influenza Immunization,460,575,0.8
+2024-08,IMM_FLU,Influenza Immunization,215,267,0.8052
+2024-09,IMM_FLU,Influenza Immunization,420,545,0.7706
+2024-10,IMM_FLU,Influenza Immunization,287,365,0.7863
+2024-11,IMM_FLU,Influenza Immunization,258,324,0.7963
+2024-12,IMM_FLU,Influenza Immunization,370,473,0.7822
+2025-01,IMM_FLU,Influenza Immunization,417,515,0.8097
+2025-02,IMM_FLU,Influenza Immunization,212,272,0.7794
+2025-03,IMM_FLU,Influenza Immunization,221,282,0.7837
+2025-04,IMM_FLU,Influenza Immunization,295,390,0.7564
+2025-05,IMM_FLU,Influenza Immunization,370,454,0.815
+2025-06,IMM_FLU,Influenza Immunization,190,231,0.8225
