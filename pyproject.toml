@@ -1,0 +1,214 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "value-based-care-analytics"
+version = "1.0.0"
+description = "A Streamlit dashboard for Value-Based Care Performance Analytics with real-world inspired healthcare datasets"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Luqman Bin Fahad", email = "your.email@example.com"}
+]
+keywords = [
+    "healthcare",
+    "analytics",
+    "value-based-care",
+    "streamlit",
+    "dashboard",
+    "machine-learning",
+    "healthcare-analytics",
+    "performance-management"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Healthcare Industry",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
+
+dependencies = [
+    # Core Streamlit framework
+    "streamlit>=1.28.0",
+    
+    # Data manipulation and analysis
+    "pandas>=1.5.0",
+    "numpy>=1.21.0",
+    
+    # Data visualization
+    "plotly>=5.15.0",
+    "matplotlib>=3.5.0",
+    "seaborn>=0.11.0",
+    
+    # Machine learning
+    "scikit-learn>=1.3.0",
+    
+    # Statistical analysis
+    "scipy>=1.9.0",
+    "statsmodels>=0.14.0",
+    
+    # Date/time handling
+    "python-dateutil>=2.8.0",
+    
+    # Utility libraries
+    "openpyxl>=3.0.0",  # For Excel file handling
+    "xlsxwriter>=3.0.0",  # For Excel export functionality
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "black>=23.0.0",
+    "isort>=5.12.0",
+    "flake8>=6.0.0",
+    "mypy>=1.0.0",
+    "pre-commit>=3.0.0",
+]
+
+test = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "pytest-mock>=3.10.0",
+]
+
+docs = [
+    "sphinx>=6.0.0",
+    "sphinx-rtd-theme>=1.2.0",
+    "myst-parser>=2.0.0",
+]
+
+performance = [
+    "numba>=0.57.0",  # For performance optimization
+    "dask>=2023.0.0",  # For large dataset processing
+]
+
+[project.urls]
+Homepage = "https://github.com/LuqmanBinFahad/Value-Based-Care-Performance-Analytics"
+Repository = "https://github.com/LuqmanBinFahad/Value-Based-Care-Performance-Analytics"
+Documentation = "https://github.com/LuqmanBinFahad/Value-Based-Care-Performance-Analytics#readme"
+"Bug Tracker" = "https://github.com/LuqmanBinFahad/Value-Based-Care-Performance-Analytics/issues"
+
+[project.scripts]
+vbc-analytics = "app:main"
+
+[tool.setuptools]
+packages = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "src"
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+line_length = 88
+known_first_party = ["src"]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra -q --strict-markers --strict-config"
+testpaths = [
+    "tests",
+]
+python_files = [
+    "test_*.py",
+    "*_test.py",
+]
+python_classes = [
+    "Test*",
+]
+python_functions = [
+    "test_*",
+]
+
+[tool.coverage.run]
+source = ["src"]
+omit = [
+    "*/tests/*",
+    "*/test_*",
+    "*/__pycache__/*",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "if self.debug:",
+    "if settings.DEBUG",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if 0:",
+    "if __name__ == .__main__.:",
+    "class .*\\bProtocol\\):",
+    "@(abc\\.)?abstractmethod",
+]
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+disallow_untyped_decorators = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_no_return = true
+warn_unreachable = true
+strict_equality = true
+
+[[tool.mypy.overrides]]
+module = [
+    "streamlit.*",
+    "plotly.*",
+    "seaborn.*",
+    "sklearn.*",
+    "statsmodels.*",
+]
+ignore_missing_imports = true
+
+[tool.flake8]
+max-line-length = 88
+extend-ignore = [
+    "E203",  # whitespace before ':'
+    "E501",  # line too long (handled by black)
+    "W503",  # line break before binary operator
+]
+exclude = [
+    ".git",
+    "__pycache__",
+    "build",
+    "dist",
+    "*.egg-info",
+]
